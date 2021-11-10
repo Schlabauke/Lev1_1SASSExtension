@@ -1,0 +1,28 @@
+section {
+    display:flex;
+    justify-content: space-between;
+    font-size: 70px;
+    div{
+        &:nth-of-type(1){
+            color:#1da1f2;
+        }
+        &:nth-of-type(2){
+            color:#1769ff;
+        }
+        &:nth-of-type(3){
+            color:#1877f2;
+        }
+        &:nth-of-type(4){
+            color:#fffc00;
+        }
+        &:nth-of-type(5){
+            color:#fd5c63;
+        }
+        &:nth-of-type(6){
+            color:#ff9900;
+        }
+        &:nth-of-type(7){
+            color:#a4c639;
+        }
+    }
+}
